@@ -1,23 +1,21 @@
 ---
 comments: true
 ---
-# This is Thomas KnoledgeBook
+# 这是 Thomas KnoledgeBook
 
-Welcome!
-You can expect:
+欢迎!
+在这里，你可以看到:
 
-- Random stuff on:
+- 关于:
   
-  - Chinese
-  - Math
-  - English
-  - Programming
+  - 语文
+  - 数学
+  - 英语
+  - 编程
 
     - C++
     - Python
   
-  - etc
+  - 等等
 
-- A site that wouldn't be construct
-  
-THAT'S ALL
+- 不维护的网站

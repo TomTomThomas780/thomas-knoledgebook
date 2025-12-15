@@ -3,8 +3,58 @@ site_url: https://0.0.0.0:66
 theme:
   name: material
   language: zh
+  custom_dir: overrides
+  features:
+    - content.action.edit
+    - content.action.view
   icon:
     logo: material/book
+    edit: material/pencil
+    view: material/eye
+    tag:
+        chn: material/book-education
+        eng: material/format-letter-case
+        mth: simple/libreofficemath
+        phy: material/lightbulb
+        bio: material/bacteria
+        geo: material/map
+        his: material/history
+        che: material/test-tube
+        prg: octicons/command-palette-16
+        misc: material/disc
+
+        chn-lzh: material/book-sync
+        chn-poe: material/book
+        chn-smw: material/book
+        chn-jxw: material/book
+        chn-ylw: material/book
+        chn-: material/book-education
+
+        mth-alg: material/math-integral
+        mth-geo: material/math-compass
+        mth-: simple/libreofficemath
+
+        phy-f: fontawesome/solid/f
+        phy-h: material/heat-wave
+        phy-l: octicons/light-bulb-16
+        phy-m: material/music
+        phy-e: material/lightning-bolt
+        phy-: material/lightbulb
+
+        eng-g: simple/grammarly
+        eng-d: simple/dictionarydotcom
+        eng-r: material/book-open
+        eng-w: material/pen
+        eng-: material/format-letter-case
+
+        prg-py: material/language-python
+        prg-cpp: material/language-cpp
+        prg-html: material/language-html5
+        prg-arg: simple/thealgorithms
+        prg-: octicons/command-palette-16
+repo_url: https://github.com/TomTomThomas780/thomas-knoledgebook
+repo_name: TomTomThomas780/thomas-knoledgebook
+edit_uri: edit/main/docs/
 markdown_extensions:
   # Python Markdown
   - abbr
@@ -37,3 +87,54 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
+  - tags:
+      tags_hierarchy: true
+      tags_hierarchy_seperator: "-"
+
+extra:
+  tags:
+    语文: chn
+    数学: mth
+    物理: phy
+    生物: bio
+    地理: geo
+    历史: his
+    英语: eng
+    化学: che
+    编程: prg
+    杂项: misc
+
+    语文-文言文: chn-lzh
+    语文-诗词: chn-poe
+    语文-说明文: chn-smw
+    语文-记叙文: chn-jxw
+    语文-议论文: chn-ylw
+    语文-杂项: chn-
+
+    数学-代数: mth-alg
+    数学-几何: mth-geo
+    数学-杂项: mth-
+
+    物理-力: phy-f
+    物理-热: phy-h
+    物理-光: phy-l
+    物理-声: phy-m
+    物理-电: phy-e
+    物理-杂项: phy-
+
+    英语-语法: eng-g
+    英语-词汇: eng-d
+    英语-阅读: eng-r
+    英语-写作: eng-w
+    英语-杂项: eng-
+
+    编程-Python: prg-py
+    编程-C++: prg-cpp
+    编程-HTML: prg-html
+    编程-算法: prg-alg
+    编程-杂项: prg-

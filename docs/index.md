@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # This is Thomas KnoledgeBook
 
 Welcome!
